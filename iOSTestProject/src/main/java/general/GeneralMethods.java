@@ -13,11 +13,4 @@ public class GeneralMethods extends DriverManager {
                 ExpectedConditions.presenceOfElementLocated(by)
         );
     }
-
-//    public static WebElement waitForElementPresentRefact(By by, int timeoutInSeconds) {
-//        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(),  timeoutInSeconds);
-//        return wait.until(
-//                ExpectedConditions.presenceOfElementLocated(by) //ожидает элемент
-//        );
-//    }
 }
