@@ -4,7 +4,7 @@ import org.testng.annotations.*;
 import pages.MainPage;
 import java.io.File;
 
-public class FirstTest {
+public class FirstTest extends BaseTest{
 
     private final static File app = new File("src/test/resources/QALection.zip");
 

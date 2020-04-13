@@ -24,6 +24,7 @@ public class BaseTest {
         caps.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
         caps.setCapability("app",app.getAbsolutePath());
+        caps.setCapability("useNewWDA", false);
 
         URL appiumURL = new URL("http://127.0.0.1:4723/wd/hub");
         DriverManager.initializeDriver(appiumURL, caps);
